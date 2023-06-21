@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<div class="container">
+    <br /><br />
+    <button class="btn btn-warning" id="btn1">Buton1</button>
+</div>
+
+<script>
+    $("#btn1").click(function () {
+        swal('Müşteri Detay','Merhaba burası bir mesaj kutusudur','success');
+    })
+</script>
